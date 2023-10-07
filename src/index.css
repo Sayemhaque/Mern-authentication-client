@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Apply styles to the body element */
+body {
+  background-color: rgba(125, 48, 196, 0.89)
+}
+
+
+/* Apply styles to the input element */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style when the input is focused */
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Change to your desired focus color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+}
+
+/* Style for placeholder text */
+input::placeholder {
+  color: #999; /* Change to your desired placeholder text color */
+}
+
+
+
+.input-group{
+  margin-top: 20px;
+}
+
+
+label{
+  color: rgb(43, 40, 40);
+  text-transform: capitalize;
+}
+
+
+.signup{
+  max-width: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border:1px solid rgb(199, 198, 198);
+  padding: 100px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+
+.btn{
+  background-color: rgba(125, 48, 196, 0.89);
+  padding: 10px 4px;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+  margin-top: 5px;
+}
+
+
+.userDetails{
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.username{
+  font-size: 15px;
+  font-weight: bold;
+  color: #555151;
+}
+
+.useremail{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+.link{
+  text-align: center;
+  margin-top: 5px;
+}
+
+span{
+  font-size: 20px;
+  color: black;
+}
